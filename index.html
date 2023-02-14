@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Responsive Profile Card | Dark and Light</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="profile">
+            <!-- setting Light and dark mode  -->
+            <div class="profile-setting">
+                <div class="profile-switch">
+                    <i class="fas fa-adjust"></i>
+                    <label for="checkbox" class="switcher">
+                        <input type="checkbox" id="checkbox">
+                        <div class="slider round"></div>
+                    </label>
+                </div>
+            </div>
+            <!-- body profile -->
+            <img class="profile-image" src="profile.jpg" />
+            <h2>Ali labib</h2>
+            <span>SENIOR SOFTWARE DEVELOPER</span>
+            <p>
+                <i class="fas fa-map-marker-alt"></i>
+                Egypt
+            </p>
+            <div class="profile-calculate">
+                <div class="card">
+                    <div class="card-icon behance">
+                        <i class="fab fa-behance-square"></i>
+                    </div>
+                    <h3>85.4k</h3>
+                    <span>followers</span>
+                </div>
+                <div class="card">
+                    <div class="card-icon linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>26.4k</h3>
+                    <span>followers</span>
+                </div>
+                <div class="card">
+                    <div class="card-icon github">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>13.4k</h3>
+                    <span>followers</span>
+                </div>
+            </div>
+            <hr class="divider" />
+            <h3 class="title">About</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sunt ipsa optio voluptate, assumenda inventore accusamus repellat molestiae ipsum nobis vero odit consequuntur vel? Quisquam numquam reiciendis accusantium quod modi.</p>
+            <button class="profile-button">Hire me</button>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
